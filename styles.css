@@ -107,7 +107,7 @@ button {
 /* background wallpaper */
 
 body {
-  background-image: url("https://wallpapercosmos.com/w/full/8/2/a/1200224-3840x2160-desktop-4k-ghost-pokemon-background-image.jpg");
+  background-image: url("https://wallpaperaccess.com/download/pokemon-hd-21007");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -115,6 +115,14 @@ body {
 
 
 /* welcome */
-h1{
-    text-align: center;
+html, body {
+    height: 100%;
+    margin: 0;
 }
+.Welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #e5e0e0;
+  }
