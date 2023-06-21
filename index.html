@@ -2,28 +2,22 @@
 <html>
   <head>
     <link rel="shortcut icon" href="images/pixil-frame-0.png" />
+    <script src="script.js"></script>
 
     <title>PokeHub</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <script src="index.js"></script>
-
   </head>
-  
-  <body>
-    <div class="Welcome">
-      <h1>Welcome to PokeHub</h1>
-    </div>
-    <div class="search">
-             
-        <form action="#">
-            <input type="text"
-                placeholder=" Search Pokеmon"
-                name="search">
-  </div>
 
-<button 
-class="glow-on-hover" type="button">Catch EM!
-</button>
-</body>
+  <body>
+    <div class="container">
+      <div class="welcome-message">
+        Welcome to PokeHub
+      <div class="search">
+        <form action="#">
+            <input type="text" id="search-input" placeholder=" Search Pokemon" name="search" />
+          </form>
+          <button class="glow-on-hover" type="button" onclick="handleSearch()">Catch EM!</button>
+    </div>
+  </body>
 </html>
-  
