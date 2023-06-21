@@ -126,7 +126,7 @@ body {
   font-size: 34px;
   font-weight: bold;
   color: aliceblue;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .search input[type="text"] {
@@ -137,6 +137,7 @@ body {
   border: none;
   padding: 5px;
   align-items: center;
+  margin-top: 30px;
 }
 
 .button {
@@ -145,6 +146,7 @@ body {
   float: right;
   border: none;
   font-size: 12px;
+  
 }
 
 .glow-on-hover {
